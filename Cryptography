@@ -1,0 +1,14 @@
+##Cryptography conceals data against unauthorized access
+- Consider the steps involved in sending messages from a sender, S, to a recipient, R. If
+S entrusts the message to T, who then delivers it to R, T then becomes the transmission
+medium. If an outsider, O, wants to access the message (to read, change, or even destroy
+it), we call O an interceptor or intruder. Any time after S transmits the message via T, it
+is vulnerable to exploitation, and O might try to access it in any of the following ways:
+• block it, by preventing its reaching R, thereby affecting the availability of the
+message
+• intercept it, by reading or listening to the message, thereby affecting the
+confidentiality of the message
+• modify it, by seizing the message and changing it in some way, affecting the
+message’s integrity
+• fabricate an authentic-looking message, arranging for it to be delivered as if it
+came from S, thereby also affecting the integrity of the message
